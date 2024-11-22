@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,8 @@
 </head>
 
 <body>
-
     <header>
-
         <nav>
-            
             <img src="Group 18.svg">
 
             <a href="#main">
@@ -28,132 +26,225 @@
                 Поиск
             </a>
 
-            <span>
+            <span class="phone-call">
                 <img src="phone-call 1.svg">
 
-            <a href="#phone">
-                +7(987) 887-87
-            </a>
+                <a href="#phone">
+                    +7(987) 887-87
+                </a>
 
-        </span>
+            </span>
 
         </nav>
 
         <div class="banner">
             <img src="banner.jpeg">
         </div>
-
     </header>
 
-    <main>
-        <section>
-            <article>
-                <span class="badge">
+    <main class="container">
+        <section class="news-cards">
+            <article class="card card--full">
+                <span class="card__badge">
                     Категория 1
                 </span>
-                <h3>Управление ИТ-активами — скучная рутина или творческая задача?</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
-                <p>Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. </p>
+                <h3 class="card__title">Управление IT-активами&#160;—&#160;скучная рутина или творческая задача?</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+                <p class="card__content"> Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в
+                    крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс
+                    отчёт, решив проверить, нужен ли он вообще. </p>
             </article>
 
-            <article>
-                <span class="badge">
+            <article class="card card--double-col">
+                <span class="card__badge">
                     Категория 1
                 </span>
-                <h3>Управление ИТ-активами – скучная рутина или творческая задача?</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
-                <p>Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. </p>
+                <h3 class="card__title">Управление ИТ-активами — скучная рутина или творческая задача?</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+                <p class="card__content"> Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в
+                    крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс
+                    отчёт, решив проверить, нужен ли он вообще. </p>
             </article>
 
-            <article>
-                <span class="badge">
+            <article class="card card--single">
+                <span class="card__badge">
                     Категория 1
                 </span>
-                <h3>Управление ИТ-активами – скучная рутина или творческая задача?</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
-                <p>Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще. </p>
+                <h3 class="card__title">Управление ИТ-активами — скучная рутина или творческая задача?</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+                <p class="card__content"> Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в
+                    крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс
+                    отчёт, решив проверить, нужен ли он вообще. </p>
             </article>
 
-            <article>
-                <span class="badge">
+            <article class="card">
+                <span class="card__badge">
                     Категория 1
                 </span>
-                <h3>ITAM&SAMDay – самая настоящая удача!</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
+                <h3 class="card__title">Управление ИТ-активами — скучная рутина или творческая задача?</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+                <p class="card__content"> Размышляя об управлении ИТ-активами, я вспомнил один учебный пример </p>
             </article>
 
-            <article>
-                <img src="Rectangle 3.jpg"
-                <span class="badge">
+            <article class="card card--primary">
+                <span class="card__badge">
+                    Категория 1
+                </span>
+                <h3 class="card__title">ITAM&SAMDay – самая настоящая удача!</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+            </article>
+
+            <article class="card card--hide">
+                <img class="card__img" src="Rectangle 3.jpg"> 
+                <span class="card__badge">
+                Очень длинная категория 2
+                </span>
+                <h3 class="card__title">Управление ИТ-активами – скучная рутина или творческая задача?</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+            </article>
+
+            <article class="card">
+                <span class="card__badge">
+                    Категория 1
+                </span>
+                <h3 class="card__title">Управление ИТ-активами – скучная рутина или творческая задача слово слово и еще длинное слово после
+                    чего ...</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+            </article>
+
+            <article class="card card--primary">
+                <span class="card__badge">
+                    Категория 1
+                </span>
+                <h3 class="card__title">ITAM&SAMDay – самая настоящая удача!</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+            </article>
+
+            <article class="card">
+                <span class="card__badge">
+                    Категория 1
+                </span>
+                <h3 class="card__title">Управление ИТ-активами — скучная рутина или творческая задача?</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+                <p class="card__content"> Размышляя об управлении ИТ-активами, я вспомнил один учебный пример </p>
+            </article>
+
+            <article class="card card--primary">
+                <span class="card__badge">
                     Очень длинная категория 2
                 </span>
-                <h3>Управление ИТ-активами – скучная рутина или творческая задача?</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
+                <h3 class="card__title">ITAM&SAMDay – самая настоящая удача!</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
             </article>
 
-            <article>
-                <span class="badge">
+            <article class="card card--hide">
+                <img class="card__img" src="Rectangle 3.png">
+                 <span class="card__badge">
+                Категория 1
+                </span>
+                <h3 class="card__title">Управление ИТ-активами – скучная рутина или творческая задача?</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+            </article>
+
+            <article class="card">
+                <span class="card__badge">
                     Категория 1
                 </span>
-                <h3>Управление ИТ-активами – скучная рутина или творческая задача слово слово и еще длинное слово после чего ...</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
+                <h3 class="card__title">Управление ИТ-активами – скучная рутина или творческая задача слово слово и еще длинное слово после
+                    чего ...</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
             </article>
 
-            <article>
-                <span class="badge">
+            <article class="card card--primary">
+                <span class="card__badge">
                     Категория 1
                 </span>
-                <h3>ITAM&SAMDay – самая настоящая удача!</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
+                <h3 class="card__title">ITAM&SAMDay – самая настоящая удача!</h3>
+                <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
             </article>
-
-            <article>
-                <span class="badge">
-                    Категория 1
-                </span>
-                <h3>Управление ИТ-активами – скучная рутина или творческая задача?</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
-                <p>Размышляя об управлении ИТ-активами, я вспомнил один учебный пример. Менеджер по ИТ-мощностям в крупной компании периодически готовил толстенный отчёт руководству. В очередной раз он не принёс отчёт, решив проверить, нужен ли он вообще.</p>
-            </article>
-
-            <article>
-                <span class="badge">
-                    Очень длинная категория 2
-                </span>
-                <h3>ITAM&SAMDay – самая настоящая удача!</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
-            </article>
-
-            <article>
-                <img src="Rectangle 3.png"
-                <span class="badge">
-                    Категория 1
-                </span>
-                <h3>Управление ИТ-активами – скучная рутина или творческая задача?</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
-            </article>
-
-            <article>
-                <span class="badge">
-                    Категория 1
-                </span>
-                <h3>Управление ИТ-активами – скучная рутина или творческая задача слово слово и еще длинное слово после чего ...</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
-            </article>
-
-            <article>
-                <span class="badge">
-                    Категория 1
-                </span>
-                <h3>ITAM&SAMDay – самая настоящая удача!</h3>
-                <time datetime="2020-12-13">13 дек 2020</time>
-            </article>
-
+                    <button class="more">
+                            Показать еще 6 
+                            <img class="more__img" src="Group.png">
+                    </button>
         </section>
 
-        </div>
+        <nav class="pagination" aria-label="Навигация по страницам">
+            <ul class="pagination__list">
+              <li class="pagination__item">
+                <a href="#" class="pagination__link" aria-label="Страница 1" aria-current="page">1</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link" aria-label="Страница 2">2</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link" aria-label="Страница 3">3</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link" aria-label="Страница 4">4</a>
+              </li>
+              <li class="pagination__item">
+                <span class="pagination__dots">...</span>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link" aria-label="Страница 10">10</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link pagination__next" aria-label="Следующая страница">Следующая &rsaquo;</a>
+              </li>
+            </ul>
+          </nav>
 
+        <aside class="sidebar">
+            <section class="sidebar__section">
+                <h2 class="sidebar__title">Популярные новости</h2>
+                <ul class="sidebar__links">
+                    <li><a href="#">ITAM&SAMDay — самая настоящая удача!</a>
+                        <time class="card__date" datetime="2020-12-13">13 дек 2020</time>
+                    </li>
+                    <li><a href="#">Секреты лицензирования. Всё, что вы хотели знать про Microsoft, SAP и Oracle, но не
+                            знали, у кого спросить ...</a>
+                        <time class="card__date" datetime="2020-12-10">10 дек 2020</time>
+                    </li>
+                    <li><a href="#">Менеджмент XXI века. Надо ли готовиться к изменениям или мы давно уже должны были
+                            измениться?</a>
+                        <time class="card__date" datetime="2020-12-05">5 дек 2020</time>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="sidebar__section spam">
+                <h2 class="sidebar__title">Подписка на рассылку</h2>
+                <form class="sidebar__form">
+                    <input class="sidebar__input" type="email" id="email" name="email" placeholder="email@gmail.com">
+                    <button class="sidebar__btn" type="submit">
+                        <span class="sidebar__sub">Подписаться</span>
+                        <img src="right-arrow 1.svg" />
+                    </button>
+                </form>
+            </section>
+        </aside>
+
+          <footer class="footer">
+            <div class="footer__content">
+              <a href="#" class="footer__logo">
+                <img src="Group 18.svg" alt="Логотип">
+              </a>
+              <nav class="footer__nav">
+                <ul class="footer__list">
+                  <li><a href="#">О нас</a></li>
+                  <li><a href="#">Галерея</a></li>
+                  <li><a href="#">Новости</a></li>
+                  <li><a href="#">Контакты</a></li>
+                </ul>
+              </nav>
+            </div>
+            <p class="footer__copyright">
+              © ООО "Организация" 2020. Все права защищены
+            </p>
+          </footer>          
+          
     </main>
-    
+
 </body>
+
 </html>
